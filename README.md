@@ -1,6 +1,6 @@
 # YouTube Video Downloader
 
-## A fully functional program written in Python for downloading YouTube videos to your computer/laptop.
+![YouTubeVideoDownloader](imgs/Logo.png)
 
 Tired of searching for YouTube to mp4 converters just to find out that it's been taken down? Me too. This project allows the user to download _any_ YouTube video to their desktop or laptop using the command-line interface. This program uses the pytube in order to access the YouTube video(s) for download.
 
