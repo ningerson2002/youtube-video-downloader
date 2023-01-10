@@ -8,13 +8,15 @@ print("Title: ", yt.title)
 
 print("Views:", yt.views)
 
+print("Getting the highest resolution video for you!")
+
 yd = yt.streams.get_highest_resolution()
 
-print("Downloading...")
+print("Downloading your video (this may take a few moments)!")
 
-# change this value to the path you wish to download to
+# change this
 path = "/Users/ninge/Videos/YouTube Downloads/"
 
 yd.download(path)
 
-print(f"{yt.title} downloaded to {path}!")
+print(f"The YouTube video, {yt.title}, downloaded to {path}!")
