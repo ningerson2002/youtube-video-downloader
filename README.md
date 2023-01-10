@@ -24,7 +24,7 @@ The easiest way to understand how this works is to watch the user guide, but her
    - `cd PATH` (replace PATH with the path which you cloned this repository to)
    - `cd src`
    - `pip3 install pytube`
-   - `python3 LINK` (replace LINK with the link to the video you wish to download)
+   - `python3 yt-downloader.py LINK` (replace LINK with the link to the video you wish to download)
 8. Voila! Your video should be downloaded to the specified folder.
 
 ## Like this project?
